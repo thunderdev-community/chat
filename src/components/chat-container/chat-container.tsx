@@ -9,8 +9,7 @@ export class ChatContainer {
   render() {
     return [
       <chat-header />,
-      <chat-content />,
-      <roadmap-info />
+      <chat-content />
     ];
   }
 }

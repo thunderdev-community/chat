@@ -8,19 +8,20 @@ export class ChatMenu {
   render() {
     return [
       <li>
-        <span></span>
+        <span>home_icon</span>
+      </li>,
+      <hr/>,
+      <li>
+        <span>search_icon</span>
       </li>,
       <li>
-        <span></span>
+        <span>add_icon</span>
       </li>,
       <li>
-        <span></span>
+        <span>group1_icon</span>
       </li>,
       <li>
-        <span></span>
-      </li>,
-      <li>
-        <span></span>
+        <span>group2_icon</span>
       </li>
     ];
   }

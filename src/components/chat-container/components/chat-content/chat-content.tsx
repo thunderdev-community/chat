@@ -8,8 +8,7 @@ export class ChatContent {
 
   render() {
     return [
-      <h2>Example</h2>,
-      <textarea name="" id="" cols={30} rows={10}></textarea>,
+      <textarea name="" id="" cols={30} rows={35}></textarea>,
       <input type="text"/>,
       <input type="submit"/>
     ];

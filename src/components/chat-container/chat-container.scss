@@ -1,7 +1,10 @@
 chat-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 
-  padding: 56px 56px;
+  height: 100%;
+  width: calc(100% - 180px);
+
+  padding: 0px 56px 0 124px;
 }

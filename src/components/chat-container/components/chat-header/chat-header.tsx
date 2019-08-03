@@ -7,9 +7,9 @@ import { Component, h } from '@stencil/core';
 export class ChatHeader {
   render() {
     return [
-      <div>
-        Example
-      </div>
+      <h2>
+        Chat_header_example
+      </h2>
     ];
   }
 }
